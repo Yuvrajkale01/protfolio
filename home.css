@@ -258,9 +258,7 @@
     transition: transform 0.3s ease;
 }
 
-/* .project-card:hover {
-    transform: translateY(-5px);
-} */
+
 
 .project-card img {
     width: 100%;
@@ -433,7 +431,7 @@
 
 
 
-/* Navbar Styles */
+
 #navbar {
     position: sticky;
     top: 0;
@@ -477,12 +475,13 @@
     color: #dcecff;
 }
 
-/* Smooth scrolling for anchor links */
-html {
-    scroll-behavior: smooth;
-}
 
-/* ========== RESPONSIVE DESIGN ========== */
+ html {
+    scroll-behavior: smooth;
+} 
+
+
+/* ========== RESPONSIVE DESIGN ==========
 @media (max-width: 768px) {
     .nav-links {
         flex-direction: column;
@@ -531,9 +530,55 @@ html {
         width: 100%;
         max-width: 250px;
     }
+} */
+
+
+.skill-category{
+     transition: background-color 2s ease, transform 0.5s ease;
+}
+
+.skill-category:hover{
+    transform: scale(1.05)
+    
 }
 
 
 
 
 
+
+.experience-entry{
+     transition: background-color 2s ease, transform 0.5s ease;
+}
+
+.experience-entry:hover{
+    transform: scale(1.03);
+}
+
+
+
+.project-card{
+    transition: background-color 2s ease, transform 0.5s ease;
+}
+.project-card:hover{
+    transform: scale(1.03);
+}
+
+
+
+
+#footer {
+    background-color: #2a6ebb;
+    color: white;
+    padding: 20px 30px;
+    text-align: center;
+    margin-top: 60px;
+    font-size: 0.95rem;
+    box-shadow: 0 -4px 8px rgba(0, 0, 0, 0.05);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+#footer .footer-container p {
+    margin: 5px 0;
+}
